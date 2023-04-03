@@ -5,13 +5,13 @@ import jakarta.persistence.*;
 
 //«машина»: ID, Вид техники (например, мультиварка), Группа техники (например, бытовые
 //приборы), Дата ввоза на склад, Дата вывоза со склада, ФИО водителя, увозящего технику со склада.
-//CREATE TABLE Book (
+//CREATE TABLE Conference (
 //        ID int (15) NOT NULL AUTO_INCREMENT,
 //        name varchar (255) NOT NULL,
 //        publish_house varchar (255) NOT NULL,
 //        data_input datetime NOT NULL,
-//        FIO datetime NOT NULL,
-//        data_output varchar (255),
+//        FIO varchar (255) NOT NULL,
+//        data_output datetime,
 //        PRIMARY KEY (ID)
 //        ) ENGINE=InnODB DEFAULT CHARSET=UTF8
 // сущность которую нужно сохранять в базе данных
